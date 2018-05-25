@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/yangxincai123/YXCUtil.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes/**/*.{swift,xib}"
+  s.source_files  = "YXCUtil/CustomUI/*.swift", "YXCUtil/Extension/*.swift", "YXCUtil/Util/*.swift","YXCUtil/CustomUI/PhotoPickerView/*.{swift,*.storyboard}", "YXCUtil/CustomUI/VersionControl/*.{swift,*.xib}"
 
   s.frameworks = 'UIKit', 'Photo', 'Foundation'
 
