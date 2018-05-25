@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YXCUtil"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of YXCUtil."
   s.description  = "A short description of YXCUtil ss"
   s.homepage     = "https://github.com/yangxincai123/YXCUtil"
@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.dependency 'SnapKit', '~> 4.0.0'
     ss.dependency 'KeychainAccess', '~> 3.1.0'
-    ss.framework  = "Foundation"
   end
 
   
